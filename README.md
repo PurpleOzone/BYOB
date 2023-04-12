@@ -1,4 +1,4 @@
-# BYOB
+# BYOB VM SIN PF
 
 Configurar BYOB para usarse localmente con máquinas virtuales en Bridge:
 
@@ -31,10 +31,14 @@ Hasta el final de dicho archivo encontraremos la URL y recuperaremos lo siguient
 
 Realizamos la misma dinámica de extraer lo marcado en rojo y sustituir nuestra IP pública por la IP local de la máquina virtual. Encontraremos otro script de python que copiaremos en un bloq de notas, completamente
 
+
 ![image](https://user-images.githubusercontent.com/111320119/231321182-10db2e35-7198-4b71-8c93-cc9eb553e144.png)
 
 Hasta el final basta con cambiar la ip pública a nuestra IP local en el espacio marcado en morado y guardar dicho archivo de Python. Este mismo quedará listo para ejecutarse en la víctima.
 
 ![image](https://user-images.githubusercontent.com/111320119/231321507-1bf44591-ff41-4d44-8e53-c61aa1dab828.png)
 
+creditos: https://www.youtube.com/watch?v=9WqHuYP-vBA
 
+
+## Manejo de errores
