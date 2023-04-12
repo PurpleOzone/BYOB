@@ -4,19 +4,19 @@ Configurar BYOB para usarse localmente con máquinas virtuales en Bridge:
 
 Descargar el payload de Byob en formato Python y leerlo para analizarlo:
 
-![image](https://user-images.githubusercontent.com/111320119/231319590-39e3dc16-11a0-4d95-b36d-3fb8cc5acf9c.png)
+![image](https://user-images.githubusercontent.com/111320119/231361123-f68dcafa-10b9-45ea-9dd1-a8bf13547c0f.png)
 
 En una terminal de Python, importa las librerias y copia el siguiente fragmento del archivo:
 zlib.decompress(base64.b64decode(b'cadena en binario=='))
 
 De esta manera, podremos decodificar la base 64 de lo que nos arroja dicho script.
 
-![image](https://user-images.githubusercontent.com/111320119/231319884-e1eb9872-d05d-4024-bf69-cf9c51fc0247.png)
+![image](https://user-images.githubusercontent.com/111320119/231361950-daec6918-c5ac-4d2e-ae30-f1cbf6cfeeb2.png)
 
 
-Dicho script nos arroja la dirección IP públic a la que se hace la petición, junto con el puerto al que hará la petición el bot una vez que se esté corriendo el script, copiamos el siguiente fragmento marcado en rojo:
+Dicho script nos arroja la dirección IP públic a la que se hace la petición, junto con el puerto al que hará la petición el bot una vez que se esté corriendo el script, copiamos el siguiente fragmento marcado en rojo incluyendo el puerto:
 
-![image](https://user-images.githubusercontent.com/111320119/231320107-917085c1-6fda-459e-8cc7-565033ca041c.png)
+![image](https://user-images.githubusercontent.com/111320119/231361449-5b72b36e-1778-48ca-aaf0-36713b50c567.png)
 
 Lo ingresamos en el navegador antecediento la IP donde se encuentra hosteada el BYOB. (tiene que estar en modo bridge la máquina virtual). Nos arrojará otro scipt de Python del que recuperaremos otra URL que modificaremos
 
@@ -27,9 +27,9 @@ Sintaxis:  http:// IP:1338 //stagers/nombrepayoad.py
 
 Hasta el final de dicho archivo encontraremos la URL y recuperaremos lo siguiente:
 
-![image](https://user-images.githubusercontent.com/111320119/231320691-ec35fb4a-49aa-4ac8-9954-3eb7a755467d.png)
+![image](https://user-images.githubusercontent.com/111320119/231362671-6c7af6c2-ce53-4523-964d-7d33f2ff2dcf.png)
 
-Realizamos la misma dinámica de extraer lo marcado en rojo y sustituir nuestra IP pública por la IP local de la máquina virtual. Encontraremos otro script de python que copiaremos en un bloq de notas, completamente
+Realizamos la misma dinámica de extraer lo marcado en rojo y sustituir nuestra IP pública por la IP local de la máquina virtual. Encontraremos otro script de python que copiaremos en un bloq de notas por completo.
 
 
 ![image](https://user-images.githubusercontent.com/111320119/231321182-10db2e35-7198-4b71-8c93-cc9eb553e144.png)
