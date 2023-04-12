@@ -7,7 +7,7 @@ Descargar el payload de Byob en formato Python y leerlo para analizarlo:
 ![image](https://user-images.githubusercontent.com/111320119/231319590-39e3dc16-11a0-4d95-b36d-3fb8cc5acf9c.png)
 
 En una terminal de Python, importa las librerias y copia el siguiente fragmento del archivo:
-zlib.decompress(base64.b64decode(b'eJwrtWFgYCgtyskvSM3TUM8oKSmw0tc3tDDXM7Q00DMyMNUzMbUyNDa20NcvLklMTy0q1q+0DNQrqFTX1CtKTUzR0AQATWsSNg=='))
+zlib.decompress(base64.b64decode(b'cadena en binario=='))
 
 De esta manera, podremos decodificar la base 64 de lo que nos arroja dicho script.
 
